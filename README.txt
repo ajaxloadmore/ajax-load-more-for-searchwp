@@ -40,6 +40,12 @@ You can pass search term to your Ajax Load More shortcode. [ajax_load_more searc
 Yes, when you add your `alm_query_args` filter, you can specify a search engine.
 `$engine = 'my_custom_engine';`
 
+= How do I highlight the search term in the search results? =
+In your Ajax Load More Repeater Template you can do the following, which uses the [SearchWP Highlighter](https://searchwp.com/documentation/classes/searchwp-highlighter/).
+	global $post;
+	$excerpt = get_the_excerpt( $post );
+	echo alm_searchwp_highlight( $excerpt, $args );
+
 
 
 == Screenshots ==
