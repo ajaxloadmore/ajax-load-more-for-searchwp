@@ -5,18 +5,18 @@ Donate link: https://connekthq.com/donate/
 Tags: ajax load more, search, searchwp, search results, filter, ajax, infinite scroll
 Requires at least: 3.6
 Tested up to: 4.7
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 An Ajax Load More extension that adds compatibility with SearchWP plugin.
 
 == Description ==
-**Ajax Load More for SearchWP** is a tiny extension that provides the functionality for returning [SearchWP](https://searchwp.com) query results to [Ajax Load More](https://wordpress.org/plugins/ajax-load-more/) for infinite scrolling. 
+**Ajax Load More for SearchWP** is a tiny extension that provides the functionality for returning [SearchWP](https://searchwp.com) query results to [Ajax Load More](https://wordpress.org/plugins/ajax-load-more/) for infinite scrolling.
 
 The extension works by providing a connection point between Ajax Load More and SearchWP and is available for users running at least Ajax Load More 2.13.0 and SearchWP 2.6.1.
 
-= Implementation Steps = 
+= Implementation Steps =
 1. Activate plugin.
 2. Create Ajax Load More shortcode with a unique ID parameter.
 3. Add custom `alm_query_args` filter to your theme functions.php - [Learn More](https://connekthq.com/plugins/ajax-load-more/extensions/searchwp/#how-it-works).
@@ -29,8 +29,8 @@ The extension works by providing a connection point between Ajax Load More and S
 Requires SearchWP > 2.6.1
 
 = How does this work? =
-This extensions works by using the [alm_query_args](https://connekthq.com/plugins/ajax-load-more/docs/filter-hooks/#alm_query_args) filter to pass values to the SWP_Query and then back to Ajax Load More. 
-[View Example](https://gist.github.com/dcooney/54bed833e51d862e204337cc7a0e18a1) 
+This extensions works by using the [alm_query_args](https://connekthq.com/plugins/ajax-load-more/docs/filter-hooks/#alm_query_args) filter to pass values to the SWP_Query and then back to Ajax Load More.
+[View Example](https://gist.github.com/dcooney/54bed833e51d862e204337cc7a0e18a1)
 
 
 = How do I pass a search term to SearchWP =
@@ -47,9 +47,7 @@ In your Ajax Load More Repeater Template you can do the following, which uses th
 	echo alm_searchwp_highlight( $excerpt, $args );
 
 
-
 == Screenshots ==
-
 
 
 == Installation ==
@@ -71,12 +69,17 @@ In your Ajax Load More Repeater Template you can do the following, which uses th
 
 == Changelog ==
 
+= 1.0.2 - April 17, 2021 =
+* UPDATE - Added support for highlighting the search term in SearchWP results with Ajax Load More. See plugin FAQs.
+
+
 = 1.0.1 - November 28, 2016 =
 * UPDATE - Updating SWP_Query to only return post IDs.
+
 
 = 1.0 - November 25, 2016 =
 * Initial Release.
 
 
 == Upgrade Notice ==
-* None 
+* None

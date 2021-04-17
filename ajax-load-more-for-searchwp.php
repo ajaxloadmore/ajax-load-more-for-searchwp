@@ -7,7 +7,7 @@ Text Domain: ajax-load-more-for-searchwp
 Author: Darren Cooney
 Twitter: @KaptonKaos
 Author URI: https://connekthq.com
-Version: 1.0.1
+Version: 1.0.2
 License: GPL
 Copyright: Darren Cooney & Connekt Media
 */
