@@ -4,7 +4,7 @@ Plugin URI: https://connekthq.com/plugins/ajax-load-more/extensions/searchwp/
 Donate link: https://connekthq.com/donate/
 Tags: ajax load more, search, searchwp, search results, filter, ajax, infinite scroll
 Requires at least: 5.0
-Tested up to: 5.7
+Tested up to: 6.0
 Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
