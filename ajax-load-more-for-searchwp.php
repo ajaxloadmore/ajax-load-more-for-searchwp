@@ -25,7 +25,7 @@ if ( ! class_exists( 'ALM_SearchWP' ) ) :
 	class ALM_SearchWP {
 
 		/**
-		 * Construct Relevanssi class.
+		 * Construct class.
 		 *
 		 * @author ConnektMedia <darren@connekthq.com>
 		 * @since 1.0
