@@ -64,7 +64,7 @@ if ( ! class_exists( 'ALM_SearchWP' ) ) :
 		 * @since 1.0
 		 */
 		public function __construct() {
-			add_filter( 'alm_searchwp', array( &$this, 'alm_searchwp_get_posts' ), 10, 2 );
+			add_filter( 'alm_searchwp', [ &$this, 'alm_searchwp_get_posts' ], 10, 2 );
 		}
 
 		/**
@@ -87,12 +87,12 @@ if ( ! class_exists( 'ALM_SearchWP' ) ) :
 				$term = sanitize_text_field( $args['s'] );
 
 				$swp_query = new SWP_Query(
-					array(
+					[
 						'engine'         => $engine,
 						's'              => $term,
 						'fields'         => 'ids',
 						'posts_per_page' => -1,
-					)
+					]
 				);
 
 				if ( ! empty( $swp_query->posts ) ) {
