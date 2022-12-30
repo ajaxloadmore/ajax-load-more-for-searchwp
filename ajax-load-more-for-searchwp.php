@@ -1,16 +1,18 @@
 <?php
-/*
-Plugin Name: Ajax Load More for SearchWP
-Plugin URI: http://connekthq.com/plugins/ajax-load-more/extensions/searchwp/
-Description: An Ajax Load More extension that adds compatibility with SearchWP
-Text Domain: ajax-load-more-for-searchwp
-Author: Darren Cooney
-Twitter: @KaptonKaos
-Author URI: https://connekthq.com
-Version: 1.0.2
-License: GPL
-Copyright: Darren Cooney & Connekt Media
-*/
+/**
+ * Plugin Name: Ajax Load More for SearchWP
+ * Plugin URI: http://connekthq.com/plugins/ajax-load-more/extensions/searchwp/
+ * Description: An Ajax Load More extension that adds compatibility with SearchWP
+ * Text Domain: ajax-load-more-for-searchwp
+ * Author: Darren Cooney
+ * Twitter: @KaptonKaos
+ * Author URI: https://connekthq.com
+ * Version: 1.0.2
+ * License: GPL
+ * Copyright: Darren Cooney & Connekt Media
+ *
+ * @package ALM_SearchWP
+ */
 
 if ( ! class_exists( 'ALM_SearchWP' ) ) :
 
@@ -56,7 +58,7 @@ if ( ! class_exists( 'ALM_SearchWP' ) ) :
 						'engine'         => $engine,
 						's'              => $term,
 						'fields'         => 'ids',
-						'posts_per_page' => -1
+						'posts_per_page' => -1,
 					)
 				);
 
