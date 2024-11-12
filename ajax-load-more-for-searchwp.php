@@ -4,12 +4,11 @@
  * Plugin URI: http://connekthq.com/plugins/ajax-load-more/extensions/searchwp/
  * Description: An Ajax Load More extension that adds compatibility with SearchWP
  * Text Domain: ajax-load-more-for-searchwp
- * Author: Darren Cooney
- * Twitter: @KaptonKaos
+ * Author: Erick Danzer
  * Author URI: https://connekthq.com
- * Version: 1.0.2
+ * Version: 1.0.3
  * License: GPL
- * Copyright: Darren Cooney & Connekt Media
+ * Copyright: Erick Danzer
  *
  * @package ALM_SearchWP
  */
