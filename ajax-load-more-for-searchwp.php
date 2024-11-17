@@ -6,7 +6,7 @@
  * Text Domain: ajax-load-more-for-searchwp
  * Author: Erick Danzer
  * Author URI: https://connekthq.com
- * Version: 1.0.3
+ * Version: 1.0.4
  * License: GPL
  * Copyright: Erick Danzer
  *
