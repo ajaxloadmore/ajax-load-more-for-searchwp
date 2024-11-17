@@ -5,7 +5,7 @@ Donate link: https://connekthq.com/donate/
 Tags: ajax load more, search, searchwp, search results, filter, ajax, infinite scroll
 Requires at least: 5.0
 Tested up to: 6.7
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,9 @@ In your Ajax Load More Repeater Template you can do the following, which uses th
 
 
 == Changelog ==
+
+= 1.0.4 - November 16, 2024 =
+* FIX: Replace SWP_Query with SearchWP\Query
 
 = 1.0.3 - November 11, 2024 =
 * UPDATE: Readme, contributors, WordPress tested version.
