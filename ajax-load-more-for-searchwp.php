@@ -77,7 +77,7 @@ if ( ! class_exists( 'ALM_SearchWP' ) ) :
 		 */
 		public function alm_searchwp_get_posts( $args, $engine ) {
 
-			if ( class_exists( 'SWP_Query' ) ) {
+			if ( class_exists( '\SearchWP\Query' ) ) {
 
 				if ( empty( $engine ) || ! isset( $engine ) ) {
 					$engine = 'default'; // set search engine.
@@ -85,17 +85,14 @@ if ( ! class_exists( 'ALM_SearchWP' ) ) :
 
 				$term = sanitize_text_field( $args['s'] );
 
-				$swp_query = new SWP_Query(
-					[
-						'engine'         => $engine,
-						's'              => $term,
-						'fields'         => 'ids',
-						'posts_per_page' => -1,
-					]
-				);
+				$swp_query = new \SearchWP\Query( $term, [
+					'engine'   => $engine,
+					'per_page' => -1,
+					'fields'   => 'ids',
+				] );
 
-				if ( ! empty( $swp_query->posts ) ) {
-					$args['post__in'] = $swp_query->posts;
+				if ( ! empty( $swp_query->results ) ) {
+					$args['post__in'] = $swp_query->results;
 					$args['orderby']  = 'post__in'; // override orderby to relevance.
 					$args['search']   = $term; // Reset 's' term value.
 					$args['s']        = ''; // Reset 's' term value.
