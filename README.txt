@@ -1,8 +1,9 @@
 === Ajax Load More for SearchWP ===
-Contributors: edanzer, dcooney
+Contributors: dcooney, connekthq
+Author: Darren Cooney
 Plugin URI: https://connekthq.com/plugins/ajax-load-more/extensions/searchwp/
 Donate link: https://connekthq.com/donate/
-Tags: ajax load more, search, searchwp, search results, filter, ajax, infinite scroll
+Tags: ajax load more, search, searchwp, search results, infinite scroll
 Requires at least: 5.0
 Tested up to: 6.7
 Stable tag: 1.0.4
@@ -74,19 +75,15 @@ In your Ajax Load More Repeater Template you can do the following, which uses th
 
 = 1.0.3 - November 11, 2024 =
 * UPDATE: Readme, contributors, WordPress tested version.
-* NOTE: Plugin has new ownership.
 
 = 1.0.2 - April 17, 2021 =
 * UPDATE - Added support for highlighting the search term in SearchWP results with Ajax Load More. See plugin FAQs.
 
-
 = 1.0.1 - November 28, 2016 =
 * UPDATE - Updating SWP_Query to only return post IDs.
 
-
 = 1.0 - November 25, 2016 =
 * Initial Release.
-
 
 == Upgrade Notice ==
 * None
