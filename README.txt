@@ -71,7 +71,8 @@ In your Ajax Load More Repeater Template you can do the following, which uses th
 == Changelog ==
 
 = 1.0.5 - June 5, 2025 = 
-* UPDATE: Updated require plugin, readme and WP tested version.
+* NEW: Adding Ajax Load More as a required plugin.
+* UPDATE: Code cleanup, readme and WP tested version.
 
 = 1.0.4 - November 16, 2024 =
 * FIX: Replace SWP_Query with SearchWP\Query
