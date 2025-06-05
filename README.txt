@@ -5,12 +5,12 @@ Plugin URI: https://connekthq.com/plugins/ajax-load-more/extensions/searchwp/
 Donate link: https://connekthq.com/donate/
 Tags: ajax load more, search, searchwp, search results, infinite scroll
 Requires at least: 5.0
-Tested up to: 6.7
-Stable tag: 1.0.4
+Tested up to: 6.8
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-An Ajax Load More extension that adds compatibility with SearchWP plugin.
+Ajax Load More extension that adds compatibility with SearchWP plugin.
 
 == Description ==
 **Ajax Load More for SearchWP** is a tiny extension that provides the functionality for returning [SearchWP](https://searchwp.com) query results to [Ajax Load More](https://wordpress.org/plugins/ajax-load-more/) for infinite scrolling.
@@ -69,6 +69,9 @@ In your Ajax Load More Repeater Template you can do the following, which uses th
 
 
 == Changelog ==
+
+= 1.0.5 - June 5, 2025 = 
+* UPDATE: Updated require plugin, readme and WP tested version.
 
 = 1.0.4 - November 16, 2024 =
 * FIX: Replace SWP_Query with SearchWP\Query

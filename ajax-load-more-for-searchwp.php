@@ -2,13 +2,14 @@
 /**
  * Plugin Name: Ajax Load More for SearchWP
  * Plugin URI: http://connekthq.com/plugins/ajax-load-more/extensions/searchwp/
- * Description: An Ajax Load More extension that adds compatibility with SearchWP
+ * Description: Ajax Load More extension that adds compatibility with SearchWP
  * Text Domain: ajax-load-more-for-searchwp
  * Author: Darren Cooney
  * Author URI: https://connekthq.com
- * Version: 1.0.4
+ * Version: 1.0.5
  * License: GPL
  * Copyright: Connekt Media & Darren Cooney
+ * Requires Plugins: ajax-load-more
  *
  * @package ALM_SearchWP
  */
