@@ -35,7 +35,7 @@ if ( ! class_exists( 'ALM_SearchWP' ) ) :
 		 * @since 1.0
 		 */
 		public function __construct() {
-			add_filter( 'alm_searchwp', [ &$this, 'alm_searchwp_get_posts' ], 10, 2 );
+			add_filter( 'alm_searchwp', [ $this, 'alm_searchwp_get_posts' ], 10, 2 );
 		}
 
 		/**
